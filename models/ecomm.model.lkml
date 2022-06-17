@@ -1,4 +1,4 @@
-connection: "0616_trial_ecomm_noah"
+connection: "0616_trial_"
 label: " eCommerce"
 include: "/queries/queries*.view" # includes all queries refinements
 include: "/views/**/*.view" # include all the views
