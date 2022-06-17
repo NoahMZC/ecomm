@@ -1,6 +1,6 @@
 view: distribution_centers {
   view_label: "Distribution Centers"
-  sql_table_name: mzcdsc-team-200716.ecomm.distribution_centers ;;
+  sql_table_name: `mzcdsc-team-200716.ecomm.distribution_centers` ;;
   dimension: location {
     type: location
     sql_latitude: ${TABLE}.latitude ;;

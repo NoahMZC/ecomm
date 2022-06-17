@@ -1,5 +1,5 @@
 view: users {
-  sql_table_name: mzcdsc-team-200716.ecomm.users ;;
+  sql_table_name: `mzcdsc-team-200716.ecomm.users` ;;
   view_label: "Users"
   ## Demographics ##
 

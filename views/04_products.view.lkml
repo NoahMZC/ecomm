@@ -1,5 +1,5 @@
 view: products {
-  sql_table_name: mzcdsc-team-200716.ecomm.products ;;
+  sql_table_name: `mzcdsc-team-200716.ecomm.products` ;;
   view_label: "Products"
   ### DIMENSIONS ###
 

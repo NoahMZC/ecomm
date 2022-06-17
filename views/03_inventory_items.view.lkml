@@ -1,5 +1,5 @@
 view: inventory_items {
-  sql_table_name: mzcdsc-team-200716.ecomm.inventory_items ;;
+  sql_table_name: `mzcdsc-team-200716.ecomm.inventory_items` ;;
   view_label: "Inventory Items"
   ## DIMENSIONS ##
 

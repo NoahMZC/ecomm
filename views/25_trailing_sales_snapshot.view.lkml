@@ -3,7 +3,7 @@ view: trailing_sales_snapshot {
     datagroup_trigger: ecommerce_etl
     sql: with calendar as
       (select distinct created_at as snapshot_date
-      from mzcdsc-team-200716.ecomm.inventory_items
+      from `mzcdsc-team-200716.ecomm.inventory_items`
       -- where dateadd('day',90,created_at)>=current_date
       )
 
@@ -11,8 +11,8 @@ view: trailing_sales_snapshot {
       inventory_items.product_id
       ,date(order_items.created_at) as snapshot_date
       ,count(*) as trailing_28d_sales
-      from mzcdsc-team-200716.ecomm.order_items
-      join mzcdsc-team-200716.ecomm.inventory_items
+      from `mzcdsc-team-200716.ecomm.order_items`
+      join `mzcdsc-team-200716.ecomm.inventory_items`
       on order_items.inventory_item_id = inventory_items.id
       join calendar
       on date(order_items.created_at) <= date_add(calendar.snapshot_date, interval 28 day)

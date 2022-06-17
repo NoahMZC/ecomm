@@ -1,5 +1,5 @@
 view: discounts {
-  sql_table_name: mzcdsc-team-200716.ecomm.discounts;;
+  sql_table_name: `mzcdsc-team-200716.ecomm.discounts`;;
 
   measure: count {
     type: count
