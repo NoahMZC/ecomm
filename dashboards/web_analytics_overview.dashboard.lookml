@@ -1,5 +1,5 @@
-- dashboard: web_analytics_overview_2
-  title: Web Analytics Overview
+- dashboard: web_analytics_overview
+  title: Web Analytics Overview 2
   layout: newspaper
   preferred_viewer: dashboards
   query_timezone: user_timezone
