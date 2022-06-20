@@ -1,4 +1,4 @@
-- dashboard: web_analytics_overview
+- dashboard: web_analytics_overview_2
   title: Web Analytics Overview
   layout: newspaper
   preferred_viewer: dashboards
