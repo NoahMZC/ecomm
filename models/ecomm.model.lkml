@@ -1,4 +1,4 @@
-connection: "0616_trial_"
+connection: "looker_demo_ecomm"
 label: " eCommerce"
 include: "/queries/queries*.view" # includes all queries refinements
 include: "/views/**/*.view" # include all the views
