@@ -1,5 +1,5 @@
 view: products {
-  sql_table_name: looker-private-demo.ecomm.products ;;
+  sql_table_name: mzcdsc-team-200716.Looker_Demo_ecomm.products ;;
   view_label: "Products"
   ### DIMENSIONS ###
 

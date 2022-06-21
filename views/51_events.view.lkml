@@ -1,5 +1,5 @@
 view: events {
-  sql_table_name: `mzcdsc-team-200716.ecomm.events` ;;
+  sql_table_name: `mzcdsc-team-200716.Looker_Demo_ecomm.events` ;;
 
   dimension: event_id {
     label: "Event ID"
