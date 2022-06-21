@@ -15,7 +15,7 @@
   elements:
   - title: Total Visitors
     name: Total Visitors
-    model: ecomm
+    model: thelook_demo
     explore: events
     type: single_value
     fields: [events.unique_visitors, events.event_week]
@@ -55,7 +55,7 @@
     height: 3
   - title: Total Converted Visitors
     name: Total Converted Visitors
-    model: ecomm
+    model: thelook_demo
     explore: order_items
     type: single_value
     fields: [users.count]
@@ -83,7 +83,7 @@
     height: 3
   - title: Total Profit
     name: Total Profit
-    model: ecomm
+    model: thelook_demo
     explore: order_items
     type: single_value
     fields: [order_items.total_sale_price]
@@ -120,7 +120,7 @@
     height: 3
   - title: 접속한 웹 브라우저 비율
     name: 접속한 웹 브라우저 비율
-    model: ecomm
+    model: thelook_demo
     explore: events
     type: looker_pie
     fields: [events.browser, events.count]
@@ -153,7 +153,7 @@
     height: 8
   - title: 홈페이지 접속 시간
     name: 홈페이지 접속 시간
-    model: ecomm
+    model: thelook_demo
     explore: events
     type: looker_bar
     fields: [sessions.duration_seconds_tier, sessions.count]
@@ -214,7 +214,7 @@
     height: 10
   - title: 홈페이지 구역 별 페이지 종료 비율
     name: 홈페이지 구역 별 페이지 종료 비율
-    model: ecomm
+    model: thelook_demo
     explore: sessions
     type: looker_column
     fields: [events.event_type, events.bounce_rate, sessions.count]
@@ -273,7 +273,7 @@
     height: 7
   - title: TOP 10 브랜드
     name: TOP 10 브랜드
-    model: ecomm
+    model: thelook_demo
     explore: events
     type: table
     fields: [product_viewed.brand, events.count, events.unique_visitors, sessions.count_purchase,
@@ -331,7 +331,7 @@
     height: 7
   - title: 퍼널(Funnel) 분석
     name: 퍼널(Funnel) 분석
-    model: ecomm
+    model: thelook_demo
     explore: sessions
     type: looker_column
     fields: [sessions.all_sessions, sessions.count_browse_or_later, sessions.count_product_or_later,
@@ -405,7 +405,7 @@
     height: 7
   - title: 접속 위치
     name: 접속 위치
-    model: ecomm
+    model: thelook_demo
     explore: events
     type: looker_map
     fields: [events.approx_location, events.count]
@@ -463,7 +463,7 @@
     height: 8
   - title: 일별 접속자 수 및 구매 비율
     name: 일별 접속자 수 및 구매 비율
-    model: ecomm
+    model: thelook_demo
     explore: sessions
     type: looker_line
     fields: [sessions.session_start_date, sessions.count, sessions.overall_conversion]
@@ -517,7 +517,7 @@
     height: 9
   - title: 홈페이지 방문/구매 비율
     name: 홈페이지 방문/구매 비율
-    model: ecomm
+    model: thelook_demo
     explore: sessions
     type: looker_pie
     fields: [sessions.includes_purchase, sessions.count]
@@ -598,7 +598,7 @@
     height: 2
   - title: 총 판매액2
     name: 총 판매액2
-    model: ecomm
+    model: thelook_demo
     explore: order_items
     type: single_value
     fields: [order_items.total_sale_price]
@@ -671,7 +671,7 @@
     ui_config:
       type: advanced
       display: popover
-    model: ecomm
+    model: thelook_demo
     explore: events
     listens_to_filters: []
     field: events.browser
@@ -684,7 +684,7 @@
     ui_config:
       type: advanced
       display: popover
-    model: ecomm
+    model: thelook_demo
     explore: events
     listens_to_filters: []
     field: users.traffic_source
