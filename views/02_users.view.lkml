@@ -1,5 +1,5 @@
 view: users {
-  sql_table_name: `looker_demo_ecomm.ecomm.users` ;;
+  sql_table_name: `mzcdsc-team-200716.Looker_Demo_ecomm.users` ;;
   view_label: "Users"
   ## Demographics ##
 
