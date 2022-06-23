@@ -585,7 +585,7 @@
 
         <a style="padding: 5px 15px; border-bottom: solid 1px #4285F4; float: left; line-height: 40px;"  href="https://megazonepartner.cloud.looker.com/dashboards/Looker_Demo_retail_block_model::group_overview_ko?%EA%B8%B0%EA%B0%84=7+days">2_매장 판매 현황</a>
 
-        <a style="padding: 5px 15px; border-bottom: solid 1px #4285F4; float: left; line-height: 40px;"  href="dashboards/Looker_Demo_retail_block_model::item_affinity_analysis_ko?Product+Level=product&Analysis+Timeframe=90+days&Focus+Product=&Focus+Category=&Minimum+Purchase+Frequency=%3E%3D0.005">3_제품 판매 현황</a>
+        <a style="padding: 5px 15px; border-bottom: solid 1px #4285F4; float: left; line-height: 40px;"  href="/dashboards/Looker_Demo_retail_block_model::item_affinity_analysis_ko?Product+Level=product&Analysis+Timeframe=90+days&Focus+Product=&Focus+Category=&Minimum+Purchase+Frequency=%3E%3D0.005">3_제품 판매 현황</a>
 
         <a style="padding: 5px 15px; border-bottom: solid 1px #4285F4; float: left; line-height: 40px;"   href="/dashboards/Looker_Demo_call_center::agent_performance?Agent=Tonya+Koop">4_상담원 평가</a>
 
