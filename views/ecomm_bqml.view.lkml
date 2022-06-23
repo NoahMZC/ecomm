@@ -78,7 +78,7 @@ view: ecomm_feature_generation {
 view: ecomm_fit {
   derived_table: {
     sql_create:
-      CREATE OR REPLACE MODEL ${SQL_TABLE_NAME}
+      CREATE OR REPLACE MODEL `mzcdsc-team-200716.Looker_Demo_ecomm.kmeans_model5` --${SQL_TABLE_NAME}
         OPTIONS(
                 model_type='kmeans',
                 num_clusters=5
