@@ -95,7 +95,7 @@ view: ecomm_predict {
     sql: SELECT
         * EXCEPT(nearest_centroids_distance)
       FROM
-        ML.PREDICT(MODEL `mzcdsc-team-200716.Looker_Demo_ecomm.kmeans_model5`,
+        ML.PREDICT(MODEL `mzcdsc-team-200716.Looker_Demo_pdt_dataset.kmeans_model5`,
         (SELECT * FROM
                     ${ecomm_feature_generation.SQL_TABLE_NAME}))
        ;;
